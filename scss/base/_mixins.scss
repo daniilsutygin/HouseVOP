@@ -1,0 +1,19 @@
+// Миксин для декоративных эллементов
+@mixin decorNumber {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+
+
+  line-height: 1.15;
+  opacity: 0.02;
+  font-size: 400px;
+  font-family: $font-accecnt;
+}
+
+// Миксин для медиа запроса для Tablet (999px)
+@mixin mediaTablet {
+  @media screen and (max-width: $tablet) {
+    @content;
+  }
+}

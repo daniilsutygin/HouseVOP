@@ -1,0 +1,21 @@
+// Base
+@import "./base/reset"; // Сброс стилей
+@import "./base/vars"; // Переменные
+@import "./base/mixins"; // Миксины
+@import "./base/base"; // Основные стили для страницы
+
+
+//Blocks
+@import "./blocks/header"; // Шапка сайта (header)
+@import "./blocks/nav"; // Навигация
+@import "./blocks/nav-icon"; // Навигация
+@import "./blocks/info"; // Информация
+@import "./blocks/benefits"; // Секция benefits
+@import "./blocks/appartments"; // Секция benefits
+@import "./blocks/card"; // Секция benefits
+@import "./blocks/cta"; // Секция cta
+@import "./blocks/form"; // Блок формы (form)
+@import "./blocks/video"; // Секция видео
+@import "./blocks/section-map"; // Секция карты
+@import "./blocks/feedback"; // Секция карты
+@import "./blocks/footer"; // Подвал сайта (footer)
